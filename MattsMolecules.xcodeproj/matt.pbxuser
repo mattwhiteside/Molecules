@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* MattsMolecules */ = {
+		activeExec = 0;
+		executables = (
+			C912E31D0EBE63490074E2A3 /* MattsMolecules */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C912E31D0EBE63490074E2A3 /* MattsMolecules */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MattsMolecules */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MattsMolecules */,
+		);
+		codeSenseManager = C912E3310EBE63680074E2A3 /* Code sense */;
+		executables = (
+			C912E31D0EBE63490074E2A3 /* MattsMolecules */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					377,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 247358719;
+			PBXWorkspaceStateSaveDate = 247358719;
+		};
+		perUserProjectItems = {
+			C9FAF6FA0EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF6FA0EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF6FB0EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF6FB0EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF6FC0EBE73A900746CC8 /* PlistBookmark */ = C9FAF6FC0EBE73A900746CC8 /* PlistBookmark */;
+			C9FAF6FD0EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF6FD0EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF6FE0EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF6FE0EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF6FF0EBE73A900746CC8 /* PBXBookmark */ = C9FAF6FF0EBE73A900746CC8 /* PBXBookmark */;
+			C9FAF7000EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF7000EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF7010EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF7010EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF7020EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF7020EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF7030EBE73A900746CC8 /* PlistBookmark */ = C9FAF7030EBE73A900746CC8 /* PlistBookmark */;
+			C9FAF7040EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF7040EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF7050EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF7050EBE73A900746CC8 /* PBXTextBookmark */;
+			C9FAF7060EBE73A900746CC8 /* PBXTextBookmark */ = C9FAF7060EBE73A900746CC8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C912E3300EBE63680074E2A3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {555, 382}}";
+			sepNavSelRange = "{381, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MattsMolecules_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {555, 382}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 189}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1282, 774}}";
+		};
+	};
+	C912E31D0EBE63490074E2A3 /* MattsMolecules */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MattsMolecules;
+		sourceDirectories = (
+		);
+	};
+	C912E3300EBE63680074E2A3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	C912E3310EBE63680074E2A3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C9FAF6370EBE654400746CC8 /* NSData+Gzip.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 382}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 452}";
+		};
+	};
+	C9FAF6380EBE654400746CC8 /* NSData+Gzip.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 1414}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 750}";
+		};
+	};
+	C9FAF63F0EBE655800746CC8 /* SLSMoleculeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 3822}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 698}";
+		};
+	};
+	C9FAF6FA0EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9FAF63F0EBE655800746CC8 /* SLSMoleculeAppDelegate.m */;
+		name = "SLSMoleculeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 0;
+	};
+	C9FAF6FB0EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 18";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	C9FAF6FC0EBE73A900746CC8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/matt/csee/My Projects/MattsMolecules/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	C9FAF6FD0EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MattsMolecules_Prefix.pch */;
+		name = "MattsMolecules_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	C9FAF6FE0EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9FAF6380EBE654400746CC8 /* NSData+Gzip.m */;
+		name = "NSData+Gzip.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	C9FAF6FF0EBE73A900746CC8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C9FAF6370EBE654400746CC8 /* NSData+Gzip.h */;
+	};
+	C9FAF7000EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9FAF63F0EBE655800746CC8 /* SLSMoleculeAppDelegate.m */;
+		name = "SLSMoleculeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 0;
+	};
+	C9FAF7010EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MattsMolecules_Prefix.pch */;
+		name = "MattsMolecules_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	C9FAF7020EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 18";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	C9FAF7030EBE73A900746CC8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/matt/csee/My Projects/MattsMolecules/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	C9FAF7040EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MattsMolecules_Prefix.pch */;
+		name = "MattsMolecules_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	C9FAF7050EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9FAF6380EBE654400746CC8 /* NSData+Gzip.m */;
+		name = "NSData+Gzip.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	C9FAF7060EBE73A900746CC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C9FAF6370EBE654400746CC8 /* NSData+Gzip.h */;
+		name = "NSData+Gzip.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 0;
+	};
+}

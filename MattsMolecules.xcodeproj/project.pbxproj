@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MattsMoleculesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MattsMoleculesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		C9FAF6390EBE654500746CC8 /* SLSMolecule+PDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6320EBE654400746CC8 /* SLSMolecule+PDB.m */; };
+		C9FAF63A0EBE654500746CC8 /* VCTitleCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6350EBE654400746CC8 /* VCTitleCase.m */; };
+		C9FAF63B0EBE654500746CC8 /* SLSMolecule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6360EBE654400746CC8 /* SLSMolecule.m */; };
+		C9FAF63C0EBE654500746CC8 /* NSData+Gzip.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6380EBE654400746CC8 /* NSData+Gzip.m */; };
+		C9FAF64A0EBE659200746CC8 /* SLSMoleculeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6440EBE659200746CC8 /* SLSMoleculeTableViewController.m */; };
+		C9FAF64B0EBE659200746CC8 /* SLSMoleculeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6460EBE659200746CC8 /* SLSMoleculeSearchViewController.m */; };
+		C9FAF64C0EBE659200746CC8 /* SLSMoleculeDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6480EBE659200746CC8 /* SLSMoleculeDownloadViewController.m */; };
+		C9FAF64D0EBE659200746CC8 /* SLSMoleculeDownloadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF6490EBE659200746CC8 /* SLSMoleculeDownloadView.xib */; };
+		C9FAF6550EBE65A200746CC8 /* SLSCellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6500EBE65A200746CC8 /* SLSCellTextView.m */; };
+		C9FAF6560EBE65A200746CC8 /* SLSTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6520EBE65A200746CC8 /* SLSTextViewController.m */; };
+		C9FAF6570EBE65A200746CC8 /* SLSMoleculeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6540EBE65A200746CC8 /* SLSMoleculeDetailViewController.m */; };
+		C9FAF6670EBE6E7E00746CC8 /* SLSMoleculeGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6630EBE6E7E00746CC8 /* SLSMoleculeGLView.m */; };
+		C9FAF6680EBE6E7E00746CC8 /* SLSMoleculeGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAF6650EBE6E7E00746CC8 /* SLSMoleculeGLViewController.m */; };
+		C9FAF6690EBE6E7E00746CC8 /* SLSMoleculeGLView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF6660EBE6E7E00746CC8 /* SLSMoleculeGLView.xib */; };
+		C9FAF66B0EBE6E9D00746CC8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF66A0EBE6E9D00746CC8 /* MainWindow.xib */; };
+		C9FAF6720EBE6EC500746CC8 /* molecules.sql in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF66D0EBE6EC500746CC8 /* molecules.sql */; };
+		C9FAF6730EBE6EC500746CC8 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF66E0EBE6EC500746CC8 /* redButton.png */; };
+		C9FAF6740EBE6EC500746CC8 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF66F0EBE6EC500746CC8 /* greenButton.png */; };
+		C9FAF6750EBE6EC500746CC8 /* MoleculesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF6700EBE6EC500746CC8 /* MoleculesIcon.png */; };
+		C9FAF6760EBE6EC500746CC8 /* 1BNA.pdb.gz in Resources */ = {isa = PBXBuildFile; fileRef = C9FAF6710EBE6EC500746CC8 /* 1BNA.pdb.gz */; };
+		C9FAF6AD0EBE6FBD00746CC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FAF6AC0EBE6FBD00746CC8 /* CoreGraphics.framework */; };
+		C9FAF6D40EBE6FC600746CC8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FAF6D30EBE6FC600746CC8 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MattsMoleculesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MattsMoleculesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MattsMoleculesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MattsMoleculesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MattsMolecules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MattsMolecules.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MattsMolecules_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MattsMolecules_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FAF6310EBE654400746CC8 /* SLSMolecule+PDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLSMolecule+PDB.h"; sourceTree = "<group>"; };
+		C9FAF6320EBE654400746CC8 /* SLSMolecule+PDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLSMolecule+PDB.m"; sourceTree = "<group>"; };
+		C9FAF6330EBE654400746CC8 /* VCTitleCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTitleCase.h; sourceTree = "<group>"; };
+		C9FAF6340EBE654400746CC8 /* SLSMolecule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMolecule.h; sourceTree = "<group>"; };
+		C9FAF6350EBE654400746CC8 /* VCTitleCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTitleCase.m; sourceTree = "<group>"; };
+		C9FAF6360EBE654400746CC8 /* SLSMolecule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMolecule.m; sourceTree = "<group>"; };
+		C9FAF6370EBE654400746CC8 /* NSData+Gzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Gzip.h"; sourceTree = "<group>"; };
+		C9FAF6380EBE654400746CC8 /* NSData+Gzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Gzip.m"; sourceTree = "<group>"; };
+		C9FAF63E0EBE655800746CC8 /* SLSMoleculeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeAppDelegate.h; sourceTree = "<group>"; };
+		C9FAF63F0EBE655800746CC8 /* SLSMoleculeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeAppDelegate.m; sourceTree = "<group>"; };
+		C9FAF6400EBE655800746CC8 /* SLSMoleculeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeRootViewController.h; sourceTree = "<group>"; };
+		C9FAF6410EBE655800746CC8 /* SLSMoleculeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeRootViewController.m; sourceTree = "<group>"; };
+		C9FAF6430EBE659200746CC8 /* SLSMoleculeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeTableViewController.h; sourceTree = "<group>"; };
+		C9FAF6440EBE659200746CC8 /* SLSMoleculeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeTableViewController.m; sourceTree = "<group>"; };
+		C9FAF6450EBE659200746CC8 /* SLSMoleculeSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeSearchViewController.h; sourceTree = "<group>"; };
+		C9FAF6460EBE659200746CC8 /* SLSMoleculeSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeSearchViewController.m; sourceTree = "<group>"; };
+		C9FAF6470EBE659200746CC8 /* SLSMoleculeDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeDownloadViewController.h; sourceTree = "<group>"; };
+		C9FAF6480EBE659200746CC8 /* SLSMoleculeDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeDownloadViewController.m; sourceTree = "<group>"; };
+		C9FAF6490EBE659200746CC8 /* SLSMoleculeDownloadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLSMoleculeDownloadView.xib; sourceTree = "<group>"; };
+		C9FAF64F0EBE65A200746CC8 /* SLSCellTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSCellTextView.h; sourceTree = "<group>"; };
+		C9FAF6500EBE65A200746CC8 /* SLSCellTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSCellTextView.m; sourceTree = "<group>"; };
+		C9FAF6510EBE65A200746CC8 /* SLSTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSTextViewController.h; sourceTree = "<group>"; };
+		C9FAF6520EBE65A200746CC8 /* SLSTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSTextViewController.m; sourceTree = "<group>"; };
+		C9FAF6530EBE65A200746CC8 /* SLSMoleculeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeDetailViewController.h; sourceTree = "<group>"; };
+		C9FAF6540EBE65A200746CC8 /* SLSMoleculeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeDetailViewController.m; sourceTree = "<group>"; };
+		C9FAF6620EBE6E7E00746CC8 /* SLSMoleculeGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeGLView.h; sourceTree = "<group>"; };
+		C9FAF6630EBE6E7E00746CC8 /* SLSMoleculeGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeGLView.m; sourceTree = "<group>"; };
+		C9FAF6640EBE6E7E00746CC8 /* SLSMoleculeGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSMoleculeGLViewController.h; sourceTree = "<group>"; };
+		C9FAF6650EBE6E7E00746CC8 /* SLSMoleculeGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSMoleculeGLViewController.m; sourceTree = "<group>"; };
+		C9FAF6660EBE6E7E00746CC8 /* SLSMoleculeGLView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLSMoleculeGLView.xib; sourceTree = "<group>"; };
+		C9FAF66A0EBE6E9D00746CC8 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C9FAF66D0EBE6EC500746CC8 /* molecules.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = molecules.sql; sourceTree = "<group>"; };
+		C9FAF66E0EBE6EC500746CC8 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		C9FAF66F0EBE6EC500746CC8 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		C9FAF6700EBE6EC500746CC8 /* MoleculesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoleculesIcon.png; sourceTree = "<group>"; };
+		C9FAF6710EBE6EC500746CC8 /* 1BNA.pdb.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = 1BNA.pdb.gz; sourceTree = "<group>"; };
+		C9FAF6AC0EBE6FBD00746CC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		C9FAF6D30EBE6FC600746CC8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				C9FAF6AD0EBE6FBD00746CC8 /* CoreGraphics.framework in Frameworks */,
+				C9FAF6D40EBE6FC600746CC8 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+				1D3623240D0F684500981E51 /* MattsMoleculesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MattsMoleculesAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MattsMolecules.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF6610EBE6E7E00746CC8 /* 3D Molecule Display */,
+				C9FAF64E0EBE65A200746CC8 /* Molecule Details View  */,
+				C9FAF6420EBE659200746CC8 /* Downloaded Molecules Table */,
+				C9FAF63D0EBE655800746CC8 /* Application Control */,
+				C9FAF6300EBE651200746CC8 /* Data Model */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MattsMolecules_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF66D0EBE6EC500746CC8 /* molecules.sql */,
+				C9FAF66E0EBE6EC500746CC8 /* redButton.png */,
+				C9FAF66F0EBE6EC500746CC8 /* greenButton.png */,
+				C9FAF6700EBE6EC500746CC8 /* MoleculesIcon.png */,
+				C9FAF6710EBE6EC500746CC8 /* 1BNA.pdb.gz */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF6D30EBE6FC600746CC8 /* libsqlite3.0.dylib */,
+				C9FAF6AC0EBE6FBD00746CC8 /* CoreGraphics.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9FAF6300EBE651200746CC8 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF6310EBE654400746CC8 /* SLSMolecule+PDB.h */,
+				C9FAF6320EBE654400746CC8 /* SLSMolecule+PDB.m */,
+				C9FAF6330EBE654400746CC8 /* VCTitleCase.h */,
+				C9FAF6340EBE654400746CC8 /* SLSMolecule.h */,
+				C9FAF6350EBE654400746CC8 /* VCTitleCase.m */,
+				C9FAF6360EBE654400746CC8 /* SLSMolecule.m */,
+				C9FAF6370EBE654400746CC8 /* NSData+Gzip.h */,
+				C9FAF6380EBE654400746CC8 /* NSData+Gzip.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		C9FAF63D0EBE655800746CC8 /* Application Control */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF66A0EBE6E9D00746CC8 /* MainWindow.xib */,
+				C9FAF63E0EBE655800746CC8 /* SLSMoleculeAppDelegate.h */,
+				C9FAF63F0EBE655800746CC8 /* SLSMoleculeAppDelegate.m */,
+				C9FAF6400EBE655800746CC8 /* SLSMoleculeRootViewController.h */,
+				C9FAF6410EBE655800746CC8 /* SLSMoleculeRootViewController.m */,
+			);
+			name = "Application Control";
+			sourceTree = "<group>";
+		};
+		C9FAF6420EBE659200746CC8 /* Downloaded Molecules Table */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF6430EBE659200746CC8 /* SLSMoleculeTableViewController.h */,
+				C9FAF6440EBE659200746CC8 /* SLSMoleculeTableViewController.m */,
+				C9FAF6450EBE659200746CC8 /* SLSMoleculeSearchViewController.h */,
+				C9FAF6460EBE659200746CC8 /* SLSMoleculeSearchViewController.m */,
+				C9FAF6470EBE659200746CC8 /* SLSMoleculeDownloadViewController.h */,
+				C9FAF6480EBE659200746CC8 /* SLSMoleculeDownloadViewController.m */,
+				C9FAF6490EBE659200746CC8 /* SLSMoleculeDownloadView.xib */,
+			);
+			name = "Downloaded Molecules Table";
+			sourceTree = "<group>";
+		};
+		C9FAF64E0EBE65A200746CC8 /* Molecule Details View  */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF64F0EBE65A200746CC8 /* SLSCellTextView.h */,
+				C9FAF6500EBE65A200746CC8 /* SLSCellTextView.m */,
+				C9FAF6510EBE65A200746CC8 /* SLSTextViewController.h */,
+				C9FAF6520EBE65A200746CC8 /* SLSTextViewController.m */,
+				C9FAF6530EBE65A200746CC8 /* SLSMoleculeDetailViewController.h */,
+				C9FAF6540EBE65A200746CC8 /* SLSMoleculeDetailViewController.m */,
+			);
+			name = "Molecule Details View ";
+			sourceTree = "<group>";
+		};
+		C9FAF6610EBE6E7E00746CC8 /* 3D Molecule Display */ = {
+			isa = PBXGroup;
+			children = (
+				C9FAF6620EBE6E7E00746CC8 /* SLSMoleculeGLView.h */,
+				C9FAF6630EBE6E7E00746CC8 /* SLSMoleculeGLView.m */,
+				C9FAF6640EBE6E7E00746CC8 /* SLSMoleculeGLViewController.h */,
+				C9FAF6650EBE6E7E00746CC8 /* SLSMoleculeGLViewController.m */,
+				C9FAF6660EBE6E7E00746CC8 /* SLSMoleculeGLView.xib */,
+			);
+			name = "3D Molecule Display";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MattsMolecules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MattsMolecules" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MattsMolecules;
+			productName = MattsMolecules;
+			productReference = 1D6058910D05DD3D006BFB54 /* MattsMolecules.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MattsMolecules" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MattsMolecules */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FAF64D0EBE659200746CC8 /* SLSMoleculeDownloadView.xib in Resources */,
+				C9FAF6690EBE6E7E00746CC8 /* SLSMoleculeGLView.xib in Resources */,
+				C9FAF66B0EBE6E9D00746CC8 /* MainWindow.xib in Resources */,
+				C9FAF6720EBE6EC500746CC8 /* molecules.sql in Resources */,
+				C9FAF6730EBE6EC500746CC8 /* redButton.png in Resources */,
+				C9FAF6740EBE6EC500746CC8 /* greenButton.png in Resources */,
+				C9FAF6750EBE6EC500746CC8 /* MoleculesIcon.png in Resources */,
+				C9FAF6760EBE6EC500746CC8 /* 1BNA.pdb.gz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MattsMoleculesAppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				C9FAF6390EBE654500746CC8 /* SLSMolecule+PDB.m in Sources */,
+				C9FAF63A0EBE654500746CC8 /* VCTitleCase.m in Sources */,
+				C9FAF63B0EBE654500746CC8 /* SLSMolecule.m in Sources */,
+				C9FAF63C0EBE654500746CC8 /* NSData+Gzip.m in Sources */,
+				C9FAF64A0EBE659200746CC8 /* SLSMoleculeTableViewController.m in Sources */,
+				C9FAF64B0EBE659200746CC8 /* SLSMoleculeSearchViewController.m in Sources */,
+				C9FAF64C0EBE659200746CC8 /* SLSMoleculeDownloadViewController.m in Sources */,
+				C9FAF6550EBE65A200746CC8 /* SLSCellTextView.m in Sources */,
+				C9FAF6560EBE65A200746CC8 /* SLSTextViewController.m in Sources */,
+				C9FAF6570EBE65A200746CC8 /* SLSMoleculeDetailViewController.m in Sources */,
+				C9FAF6670EBE6E7E00746CC8 /* SLSMoleculeGLView.m in Sources */,
+				C9FAF6680EBE6E7E00746CC8 /* SLSMoleculeGLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MattsMolecules_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = MattsMolecules;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MattsMolecules_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = MattsMolecules;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MattsMolecules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MattsMolecules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
